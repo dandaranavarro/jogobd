@@ -1,0 +1,19 @@
+Question
+Entrar para Votar
+0
+Entrar para Votar
+Usando Jquery
+
+$(":radio").click(function(evento){
+$.ajax({type: 'POST', url: 'salvar-sesao.php',
+        data: {'campo':'f_tipo','valor':$(this).val()}
+          }); 
+});
+
+salvar-sessao.php
+
+<?php
+
+$_SESSION[$_POST["campo"]] = $_POST["valor"];
+
+?>

@@ -1,0 +1,156 @@
+body{
+	background-color: #E0FFFF;
+}
+#tudo{
+	width:90%;
+	margin:auto;
+	min-width:600px;
+	max-width:2000px;
+}
+
+#conteudo {
+	position: relative;
+	background-color: #1E90FF;
+	border-radius: 5px;
+
+}
+
+#jornal{
+	position:absolute;
+	z-index: 1;
+}
+
+.anuncio01{
+	position: absolute;
+	border: 0px solid;
+	z-index:1;
+	left: 5px;
+	top: 86px;
+	padding: 93px 94px;
+	background-image: url("../img/classificados/1.jpg");
+}
+
+.anuncio01:hover{
+	background-image: url("../img/classificados/1-selecionado.jpg");
+	cursor:pointer;
+}
+
+.anuncio02{
+	position: absolute;
+	border: 0px solid;
+	z-index:1;
+	left: 201px;
+	top: 87px;
+	padding: 103px 47px;
+	background-image: url("../img/classificados/2.jpg");
+}
+
+.anuncio02:hover{
+	background-image: url("../img/classificados/2-selecionado.jpg");
+	cursor:pointer;
+}
+
+.anuncio03{
+	position: absolute;
+	left: 302px;
+	top: 86px;
+	padding: 99px 45px;
+	border: 0px solid;
+	z-index: 1;
+	background-image: url("../img/classificados/3.jpg");
+}
+
+.anuncio03:hover{
+	background-image: url("../img/classificados/3-selecionado.jpg");
+	cursor:pointer;
+}
+
+.anuncio04{
+	position: absolute;
+	border: 0px solid;
+	z-index:1;
+	left: 403px;
+	top: 87px;
+	padding: 98px 95px;
+	background-image: url("../img/classificados/4.jpg");
+}
+
+.anuncio04:hover{
+	background-image: url("../img/classificados/4-selecionado.jpg");
+	cursor:pointer;
+}
+
+.anuncio05{
+	position: absolute;
+	border: 0px solid;
+	z-index:1;
+	left: 603px;
+	top: 86px;
+	padding: 90px 95px;
+	background-image: url("../img/classificados/5.jpg");
+}
+
+.anuncio05:hover{
+	background-image: url("../img/classificados/5-selecionado.jpg");
+	cursor:pointer;
+}
+
+.anuncio06{
+	position: absolute;
+	border: 0px solid;
+	z-index:1;
+	left: 803px;
+	top: 86px;
+	padding: 118px 65px;
+	background-image: url("../img/classificados/6.jpg");
+}
+
+.anuncio06:hover{
+	background-image: url("../img/classificados/6-selecionado.jpg");
+	cursor:pointer;
+}
+
+.anuncio07{
+	position: absolute;
+	border: 0px solid;
+	z-index:1;
+	left: 5px;
+	top: 280px;
+	padding: 122px 45px;
+	background-image: url("../img/classificados/7.jpg");
+}
+
+.anuncio07:hover{
+	background-image: url("../img/classificados/7-selecionado.jpg");
+	cursor:pointer;
+}
+
+.anuncio08{
+	position: absolute;
+	border: 0px solid;
+	z-index:1;
+	left: 105px;
+	top: 280px;
+	padding: 122px 45px;
+	background-image: url("../img/classificados/8.jpg");
+}
+
+.anuncio08:hover{
+	background-image: url("../img/classificados/8-selecionado.jpg");
+	cursor:pointer;
+}
+
+.anuncio09{
+	position: absolute;
+	border: 0px solid;
+	z-index:1;
+	left: 203px;
+	top: 297px;
+	padding: 116px 46px;
+	background-image: url("../img/classificados/9.jpg");
+}
+
+.anuncio09:hover{
+	background-image: url("../img/classificados/9-selecionado.jpg");
+	cursor:pointer;
+}
