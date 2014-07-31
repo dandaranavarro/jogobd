@@ -1,0 +1,167 @@
+*   { 
+font-family:Consolas 
+}
+
+
+.tooltip {
+width: 180px;
+padding: 2px 4px;
+margin-top: 25px;
+border: 1px solid #000;
+background-color: #195fa4;
+color: #fff;
+position: absolute;
+}	
+
+.posicaoAvatar{
+position: absolute;
+left: 50px;
+top: 50px;
+}
+
+.posErros{
+position: relative;
+
+margin-left: 30%;
+line-height: 50px;
+font-size: 20px;
+margin-top: 30px;
+}
+
+.posLinha{
+position: relative;
+margin-top: 0px;
+}
+
+#nomeJogador{
+position: absolute;
+text-indent: 120px;
+font-size: 20px;
+margin-top: 0%;
+margin-left: 0%;
+}
+
+#nivelJogador{
+position: absolute;
+text-indent: 120px;
+font-size: 20px;
+margin-top: 1.5%;
+margin-left: 0%;
+}
+
+#placar {
+position: absolute;
+line-height: 50px;
+font-size: 20px;
+right: 50px;
+margin-top: 10px;
+margin-left: 93%;
+}
+
+#contadorRegressivo{
+position: absolute;
+line-height: 50px;
+font-size: 20px;
+margin-left: 60%;
+margin-top: 10px;
+color: blue;
+}
+
+
+table tbody tr:nth-child(2n+1) {
+background:#E0FFFF;
+}
+
+.destaque{
+background: #F06; color: #fff;
+}
+
+
+h1{
+text-align: center;
+}
+
+table{
+margin: 2% 10%;
+width: 80%;
+border: 1px solid #4682B4;
+
+}
+#cursor {
+
+cursor: pointer;
+}
+
+.marcouCerto {
+background: green;
+}
+
+.erroNaoMarcado {
+background: #DAA520;
+}
+
+.marcouErrado {
+background: red;
+}
+
+.hover {
+background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+cursor: pointer;
+}
+
+.botaoAvancar {
+display: inline-block;
+background-color: #ccc;
+color: #444;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+margin: 0 auto;
+position: relative;
+margin-top: 0%;
+box-shadow: 1px 1px 1px #999;
+border-radius: 4px;
+margin-left: 47.5%;
+}
+
+.enable {
+background: #ccc;
+}
+
+.disable {
+background-color: #FFF; color: grey;
+}
+
+#divScore {
+position: relative;
+text-align: right;
+margin-right: 10%;
+font-weight: bolder;
+font-size: 200%;
+float:right ;
+}
+
+#divInformes{
+position: relative;
+float:left ;
+text-align: left;
+margin-left: 10%;
+font-weight: bolder;
+font-size: 200%;
+width: auto;
+}
+
+#divResultado {
+position: relative;
+float:left ;
+text-align: left;
+margin-left: 10%;
+font-weight: bolder;
+font-size: 200%;
+clear:both;
+width: auto;
+
+}
