@@ -14,7 +14,7 @@
 			<img src = "img/investigador.jpg" width="200" height="180" class = "investigador">
 			<font id = 'nomeJogo'>Mr. Data Analyst </font>
 		
-		<!--mudar nome do arquico cadastraOUloga.html -->
+		<!--mudar nome do arquivo cadastraOUloga.html -->
 		<div id = 'menu'> 
 				<form method = "LINK" action = "cadastraOUloga.html"> <INPUT TYPE="submit" VALUE="JOGAR" class = 'botao3d'> </FORM>
 				<form method = "LINK" action = "#"> <INPUT TYPE="submit" VALUE="COMO JOGAR" class = 'botao3d'> </FORM>
