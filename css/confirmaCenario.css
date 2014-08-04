@@ -1,0 +1,47 @@
+.window{
+	display:none;
+	width:350px;
+	height:350px;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:9900;
+	padding:2px;
+	border-radius:0px;
+	background-color: yellow;
+	border: 6px solid red;
+}
+
+#anuncioAmpliado{
+	background-color:yellow;
+}
+.fechar{display:block; text-align:right;}
+
+.botaoAceita{
+	padding: 28px 33px;
+	background-image:url("../img/classificados/aceita.png");
+	cursor: pointer;
+	border: 0px solid;
+	margin-left: 65px;
+	top: 230px;
+	position: absolute;
+}
+
+.botaoAceita:hover{
+	background-image:url("../img/classificados/aceita-sel.png");
+}
+
+.botaoRejeita{
+	padding: 28px 33px;
+	background-image:url("../img/classificados/rejeita.png");
+	cursor: pointer;
+	border: 0px solid;
+	margin-left: 185px;
+	top: 230px;
+	position: absolute;
+	
+}
+
+.botaoRejeita:hover{
+	background-image:url("../img/classificados/rejeita-sel.png");
+}
